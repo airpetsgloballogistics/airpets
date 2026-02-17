@@ -1,0 +1,78 @@
+.left {
+  width: 12em;
+  cursor: pointer;
+  height: 4em;
+  display: grid;
+  place-content: center;
+}
+.left img,
+.lefts img {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  object-fit: cover;
+}
+.serve {
+  display: flex;
+  padding: 1em;
+
+  background-color: #1e293b;
+}
+.lefts {
+  width: 60%;
+  display: grid;
+  /* background-color: red; */
+  margin: 0 auto;
+  /* padding: 2em; */
+  place-content: center;
+}
+.rights {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.line {
+  padding: 2em;
+  display: flex;
+  align-items: start;
+  color: white;
+  gap: 1em;
+}
+.line h2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+.line p {
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .serve {
+    flex-direction: column;
+  }
+  .line {
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    /* gap: ; */
+  }
+  .line h2 {
+    font-size: 15px;
+  }
+  .line p {
+    font-size: 15px;
+  }
+}
+.email button {
+  border: none;
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+
+}
+.email{
+  display: flex;
+  gap: .5em;
+  align-items: center;
+
+}

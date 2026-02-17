@@ -1,0 +1,52 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 80%;
+  padding: 1em;
+  margin: 0 auto 3em auto;
+}
+.form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.names {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+  /* background-color: red; */
+  gap: 1em;
+}
+
+.form input {
+  padding: 1em;
+  outline: none;
+}
+.form button {
+  width: fit-content;
+  padding: 1em 4em;
+  border: none;
+  background-color: #245c4f;
+  color: white;
+  cursor: pointer;
+}
+
+.h1 {
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center;
+}
+.form textarea {
+  height: 10em;
+  padding: 1em;
+  outline: none;
+}
+@media screen and (max-width: 768px) {
+  .form {
+    width: 100%;
+  }
+  .names {
+    flex-direction: column !important;
+  }
+}

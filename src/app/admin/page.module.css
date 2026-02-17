@@ -1,0 +1,360 @@
+.admin {
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 100vw;
+  overflow: hidden;
+  position: relative;
+
+  z-index: 9999999999;
+  /* display: none; */
+}
+.admin h1 {
+  font-size: 20px;
+  /* font-weight: normal; */
+  text-transform: uppercase;
+  padding: 0.5em;
+  margin: 0 auto;
+  width: fit-content;
+}
+.aside li {
+  cursor: pointer !important;
+}
+.aside li:hover {
+  background-color: #85888d;
+}
+.details {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 2em;
+  flex-direction: row-reverse;
+}
+/* .admin input {
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: #e9eaec;
+} */
+/* 
+.admin button {
+  width: fit-content;
+  margin: 1em 0;
+  padding: 1em;
+  background-color: royalblue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+} */
+.admin {
+  /* padding: 1em; */
+  max-height: 100vh;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.buttons button {
+  /* margin: 0; */
+  white-space: nowrap;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .admin {
+    background-color: #f8f9fa;
+    background-color: #eee;
+  }
+  .details {
+    flex-direction: column;
+
+    /* a */
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+}
+.num {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.track {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111010;
+  /* padding: .5em; */
+  height: 5em;
+}
+.nav li {
+  display: grid;
+  place-content: center;
+}
+.nav ul {
+  display: flex;
+  gap: 1em;
+}
+.nav ul i {
+  font-size: 25px;
+  color: white;
+  padding: 0.3em 0.5em;
+}
+.profile {
+  width: 2.5em;
+  height: 2.5em;
+  /* border-radi/us: 50%; */
+  background-color: white;
+  margin: 0.3em;
+}
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aside {
+  background-color: #111010;
+  color: white;
+  width: 45%;
+  float: left;
+  position: absolute;
+  /* top: 10%; */
+  height: 100%;
+  /* height: 92%; */
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.aside ul {
+  display: flex;
+  flex-direction: column;
+}
+.aside ul li {
+  padding: 1.5em 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.nav button {
+  padding: 0.4em;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.activeAside {
+  border-left: 5px solid white;
+  background-color: royalblue;
+}
+.activeNav i {
+  /* color: royalblue !im; */
+  background-color: royalblue;
+}
+.shipment {
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #fafbfc;
+  margin-bottom: 1em;
+  /* padding: ; */
+}
+.head {
+  padding: 0.5em;
+  border-bottom: 1px solid black;
+  font-weight: 600;
+}
+.shipper h2 {
+  font-weight: 500;
+  font-size: 20px;
+  color: royalblue;
+}
+.shipper {
+  padding: 1em;
+}
+.scroll {
+  overflow-y: scroll;
+  height: 100vh;
+  z-index: 20;
+  padding-bottom: 15em;
+  background-color: #eee;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.shipper form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin: 0.5em 0;
+}
+.shipper label {
+  font-weight: 600;
+}
+.shipper form input {
+  border: none;
+  /* outline: none; */
+  background: none;
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 1px solid #85888d;
+  outline-color: royalblue;
+  outline-offset: 0;
+  /* outline: 1px solid royalblue; */
+}
+.pay option {
+  text-transform: uppercase;
+}
+.pay select {
+  text-transform: uppercase;
+}
+.shipper form select {
+  border: none;
+  /* outline: none; */
+  outline-color: royalblue;
+  outline-offset: 0;
+
+  background: none;
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 1px solid #85888d;
+}
+
+.shipper form {
+  padding: 0.5em;
+}
+.shipper textarea {
+  height: 7em;
+  border: none;
+  background: none;
+  padding: 0.3em;
+  outline-color: royalblue;
+  outline-offset: 0;
+  border-radius: 5px;
+  border: 1px solid #85888d;
+}
+.itemInfo {
+  padding: 1em;
+  display: flex;
+  gap: 0.2em;
+  overflow-x: scroll;
+}
+.itemInfo h2 {
+  font-weight: 500;
+  font-size: 12px;
+}
+.boxinfo {
+  min-width: 10em;
+  text-align: center;
+  border: 1px solid #d8d8d8;
+  /* padding: 1em; */
+  white-space: nowrap;
+}
+.boxinfo input {
+  width: 90%;
+  margin: 0.2em auto;
+  padding: 0.3em;
+  border: none;
+  outline-color: royalblue;
+  outline-offset: 0;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+}
+.boxinfo select {
+  width: 90%;
+  margin: 0.2em auto;
+
+  padding: 0.3em;
+  border: none;
+  outline-color: royalblue;
+  outline-offset: 0;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+}
+.boxinfo h2 {
+  color: white;
+  padding: 0.6em 0;
+  width: 100%;
+  font-size: 13px;
+  background-color: royalblue;
+}
+
+.shipment a {
+  text-decoration: underline;
+  color: blue;
+  padding: 1em;
+  cursor: pointer;
+}
+.shipment button {
+  margin: 0.2em;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  border-radius: 3px;
+}
+.num {
+  padding: 0.3em;
+}
+.track p {
+  width: 70%;
+  border-bottom: 1px solid black;
+  height: 2em;
+}
+.track button {
+  padding: 0.5em 1em;
+}
+.edit {
+  /* padding: 1em; */
+}
+.search {
+  display: flex;
+  gap: 0.3em;
+  /* margin: 0 auto; */
+  /* background-color: red; */
+  padding: 0.5em;
+  width: 100vw;
+  white-space: nowrap;
+}
+.search input {
+  padding: 0.5em;
+  border-radius: 4px;
+  outline-color: royalblue;
+  border: 1px solid;
+  outline-offset: 0;
+  min-width: 65%;
+  background-color: #f8f8f8;
+}
+.search button {
+  font-size: 12px;
+  padding: 0.3em;
+  border: none;
+  color: royalblue;
+  border: 1px solid royalblue;
+  border-radius: 4px;
+}

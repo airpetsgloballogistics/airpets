@@ -1,0 +1,331 @@
+.imageBoxes div {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  /* background-color: black; */
+}
+.imageBoxes i {
+  transition: 0.3s;
+  font-size: 80px;
+}
+.imageBoxes div:hover i {
+  color: royalblue;
+  cursor: pointer;
+}
+.imageBoxes div:hover {
+  background-color: white !important;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.imageBoxes div img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+.imageBoxes div:nth-child(2),
+.imageBoxes div:nth-child(4),
+.imageBoxes div:nth-child(6) {
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+.imageBoxes h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  white-space: nowrap;
+}
+.imageBoxes p {
+  font-size: 11px;
+  text-align: center;
+}
+.imageBoxes {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  box-sizing: border-box;
+}
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.left {
+  display: none;
+}
+.choice img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.choice div {
+  width: 100%;
+  box-sizing: border-box;
+}
+.right ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.right ul li div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0;
+  cursor: pointer;
+}
+.right ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.right span {
+  font-size: 10px;
+  padding: 2em;
+}
+.right ul li:hover i {
+  color: royalblue !important;
+}
+.right i {
+  transition: 0.3s;
+  font-size: 20px;
+}
+.right p {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+.uls ul {
+  list-style: decimal !important;
+  padding: 1em;
+}
+
+@media screen and (max-width: 760px) {
+  .choice {
+    flex-direction: column;
+  }
+}
+
+.floatB {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1.5em;
+  justify-content: center;
+  width: 95%;
+  border-bottom: 8px solid #ED7F35;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 2em 5em;
+  transform: translateY(-60px) !important;
+  position: relative;
+  z-index: 9000;
+}
+.floatB h1,
+.abouts h1,
+.introa {
+  font-size: 36px;
+  color: #1e293b;
+  font-weight: 700;
+}
+.floatB p,
+.abouts p,
+.detailedInfo p {
+  font-size: 16px;
+}
+
+.logistics h1,
+.freightInfo h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: #1e293b;
+}
+.logistics p,
+.freightInfo p {
+  font-size: 18px;
+  /* margin: ; */
+}
+.freight {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  width: 90%;
+  margin: 5em auto;
+  /* justify-content: space-between; */
+  gap: 3em;
+  position: relative;
+  top: -200px;
+}
+.fCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: white;
+  position: relative;
+  /* overflow: hidden; */
+  /* padding: 1em; */
+  border-radius: 0 0 10px 10px;
+}
+.topCard {
+  /* height: 15em; */
+  border-radius: 10px 10px 0 0;
+  padding: 5em 3em;
+  background-color: #1e293b;
+  color: white;
+  display: grid;
+  text-align: center;
+  place-content: center;
+}
+.topCard h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.icon {
+  position: absolute;
+  display: grid;
+  place-content: center;
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  background-color: white;
+  left: 50%;
+  top: -40px;
+  transform: translateX(-50%);
+}
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardbot {
+  padding: 1em;
+}
+.cardbot h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.cardbot ul {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.cardbot p {
+  font-size: 17px;
+}
+.cardbot i {
+  color: green;
+}
+.cardbot ul li {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.botInfo span {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.freightInfo {
+  /* padding: 2em; */
+  margin: 10em 0;
+  background: linear-gradient(270deg, rgba(244, 244, 244, 0.6) 0, #f4f4f4 100%),
+    linear-gradient(
+      0deg,
+      rgba(244, 244, 244, 0.1) 0,
+      rgba(244, 244, 244, 0.1) 80%,
+      #f4f4f4 100%
+    ),
+    url("/images/bg.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  padding: 2em;
+}
+
+.buttons {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.buttons button {
+  padding: 1em 2em;
+  background-color: #ED7F35;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.buttons a {
+  font-size: 16px;
+  padding: 1em;
+  border-left: 3px solid #eee;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.botInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .floatB h1 {
+    font-size: 20px;
+  }
+  .logistics {
+    padding: 1em;
+  }
+  .freightInfo {
+    padding: 5em 0;
+    /* padding-bottom: 0; */
+  }
+  .freight {
+    margin: 0 auto;
+  }
+  .botInfo h1 {
+    font-size: 25px;
+  }
+  .botInfo {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+  }
+  .uls {
+    padding: 1em;
+  }
+  .uls h2 {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .choice {
+    padding: 1em;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .buttons a {
+    border: none;
+    color: #ED7F35;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .buttons {
+    width: fit-content;
+    margin: 1em auto;
+  }
+  .fCard {
+    text-align: center;
+  }
+  .logistics h1 {
+    font-size: 25px;
+  }
+}
+.f2 {
+  top: 0 !important;
+}

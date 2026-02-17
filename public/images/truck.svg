@@ -1,0 +1,18 @@
+<svg width="118" height="118" viewBox="0 0 118 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="59.1064" cy="58.7759" r="51" fill="url(#paint0_linear_3_1800)" stroke="white" stroke-width="15"/>
+<path d="M34.4155 55.2964H62.2444" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M29.927 49.8811H53.2673" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M29.927 60.7114H53.2673" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M43.3925 71.0905H36.1278C34.7544 71.0905 33.704 69.8608 33.9083 68.4957L34.5367 64.3215" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M37.2568 46.271L37.7169 43.225C37.883 42.1217 38.8256 41.3071 39.9365 41.3071H69.5091C70.8826 41.3071 71.9329 42.5368 71.7287 43.9019L67.9202 69.1727C67.7541 70.276 66.8115 71.0905 65.7006 71.0905H54.1651" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M48.7786 76.5056C51.7533 76.5056 54.1648 74.0812 54.1648 71.0905C54.1648 68.0997 51.7533 65.6753 48.7786 65.6753C45.8038 65.6753 43.3923 68.0997 43.3923 71.0905C43.3923 74.0812 45.8038 76.5056 48.7786 76.5056Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M77.5056 76.5056C80.4803 76.5056 82.8918 74.0812 82.8918 71.0905C82.8918 68.0997 80.4803 65.6753 77.5056 65.6753C74.5309 65.6753 72.1194 68.0997 72.1194 71.0905C72.1194 74.0812 74.5309 76.5056 77.5056 76.5056Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M82.8916 71.0905H85.4546C86.5632 71.0905 87.5036 70.2782 87.6719 69.1772L88.8883 61.2327C89.0723 60.0323 88.7671 58.8094 88.0422 57.8392L81.7695 49.4299C81.3453 48.8613 80.681 48.5273 79.9741 48.5273H71.2214L67.6306 71.0905H72.1191" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M89.1753 59.3578H77.3368C75.9925 59.3578 74.9511 58.18 75.1082 56.8375L75.7119 51.6863" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_3_1800" x1="102.606" y1="58.7759" x2="15.6064" y2="58.7759" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E73137"/>
+<stop offset="1" stop-color="#E74731"/>
+</linearGradient>
+</defs>
+</svg>
