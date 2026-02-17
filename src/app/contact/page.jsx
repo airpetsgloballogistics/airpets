@@ -28,7 +28,7 @@ function Page() {
     e.preventDefault();
     const { firstName, lastName, phoneNumber, email, address, message } =
       formData;
-    const mailtoLink = `mailto:airpetsgloballogistics@gmail.com?subject=Contact%20Form%20Submission&body=Name:%20${firstName}%20${lastName}%0APhone%20Number:%20${phoneNumber}%0AEmail:%20${email}%0AAddress/State:%20${address}%0AMessage/Comment:%20${message}`;
+    const mailtoLink = `mailto:contact@airpetsglobalscm.com?subject=Contact%20Form%20Submission&body=Name:%20${firstName}%20${lastName}%0APhone%20Number:%20${phoneNumber}%0AEmail:%20${email}%0AAddress/State:%20${address}%0AMessage/Comment:%20${message}`;
     window.location.href = mailtoLink;
   };
 

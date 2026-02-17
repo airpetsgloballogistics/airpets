@@ -62,16 +62,16 @@ export const POST = async (req, res) => {
         let mailOptions = {
           from: {
             name: "AIRPETS GLOBAL LOGISTICS", // More specific sender name
-            address: "airpetsgloballogistics@gmail.com",
+            address: "noreply@airpetsglobalscm.com",
           },
           to: shipment.receiverEmail,
-          cc: "airpetsgloballogistics@gmail.com",
+          cc: "noreply@airpetsglobalscm.com",
           subject: `Important: Your Shipment ${trackingNumber} Status Has Changed to ${updatedData.status}`,
           messageId: messageId,
           // Add DKIM-friendly headers
           headers: {
             "X-Entity-Ref-ID": messageId,
-            "List-Unsubscribe": `<mailto:airpetsgloballogistics@gmail.com?subject=unsubscribe_${trackingNumber}>`,
+            "List-Unsubscribe": `<mailto:contact@airpetsglobalscm.com?subject=unsubscribe_${trackingNumber}>`,
             "Feedback-ID": `${trackingNumber}:airpetsglobal:${Date.now()}`,
           },
           html: `
@@ -145,7 +145,7 @@ export const POST = async (req, res) => {
                   <div style="font-size: 12px; color: #666; text-align: center; margin-top: 20px;">
                     <p>This is a transactional email regarding your shipment status update.</p>
                     <p>© ${new Date().getFullYear()} AIRPETS GLOBAL LOGISTICS. All rights reserved.</p>
-                    <p>If you need assistance, please contact our <a href="mailto:airpetsgloballogistics@gmail.com" style="color: #1a237e;">customer service</a>.</p>
+                    <p>If you need assistance, please contact our <a href="mailto:contact@airpetsglobalscm.com" style="color: #1a237e;">customer service</a>.</p>
                   </div>
                 </div>
               </div>

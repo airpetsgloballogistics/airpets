@@ -183,16 +183,16 @@ export const POST = async (req) => {
     let mailOptions = {
       from: {
         name: "AIRPETS GLOBAL LOGISTICS",
-        address: "airpetsgloballogistics@gmail.com",
+        address: "noreply@airpetsglobalscm.com",
       },
       to: receiverEmail,
-      cc: "airpetsgloballogistics@gmail.com",
+      cc: "noreply@airpetsglobalscm.com",
       subject: `Shipment Confirmation - Airpets Global Tracking #${trackingNumber}`,
       priority: "high",
       headers: {
         "Message-ID": `<${Date.now()}@airpetsglobal.com>`,
         "List-Unsubscribe":
-          "<mailto:airpetsgloballogistics@gmail.com?subject=unsubscribe>",
+          "<mailto:contact@airpetsglobalscm.com?subject=unsubscribe>",
         "X-Priority": "1",
         "X-MSMail-Priority": "High",
         Importance: "high",

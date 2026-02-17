@@ -8,7 +8,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 function Footer() {
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:airpetsgloballogistics@gmail.com?subject=Contact%20Form`;
+    const mailtoLink = `mailto:contact@airpetsglobalscm.com?subject=Contact%20Form`;
     window.location.href = mailtoLink;
   };
 
@@ -45,7 +45,7 @@ function Footer() {
               >
                 <Mail className="w-5 h-5 text-accent-500" />
                 <button className="text-sm hover:text-accent-500 transition-colors">
-                  airpetsgloballogistics@gmail.com{" "}
+                  contact@airpetsglobalscm.com{" "}
                 </button>
               </form>
             </div>
